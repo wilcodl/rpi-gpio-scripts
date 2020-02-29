@@ -39,3 +39,20 @@ sudo apt-get install python-smbus i2c-tools
 sudo i2cdetect -y 1
 ```
 3. gy302 draaien
+
+### Actieve buzzer
+
+https://raspberrytips.nl/zoemer-buzzer-gpio-zero-raspberry-pi/
+
+```shell
+sudo apt install python3-gpiozero
+```
+
+buzzer.py
+
+### Passieve buzzer
+https://github.com/gumslone/raspi_buzzer_player
+
+```shell
+wget https://raw.githubusercontent.com/gumslone/raspi_buzzer_player/master/buzzer_player.py
+```
