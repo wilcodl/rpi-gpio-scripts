@@ -56,3 +56,9 @@ https://github.com/gumslone/raspi_buzzer_player
 ```shell
 wget https://raw.githubusercontent.com/gumslone/raspi_buzzer_player/master/buzzer_player.py
 ```
+
+### 4 Relay Module
+https://nl.banggood.com/5V-4-Channel-Relay-Module-For-PIC-ARM-DSP-AVR-MSP430-Blue-p-87987.html
+http://wiki.sunfounder.cc/index.php?title=4_Channel_5V_Relay_Module
+
+/relay-4.py
