@@ -1,6 +1,25 @@
 # Ultimate starter kit
 https://nl.banggood.com/Ultimate-Starter-Kit-DIY-Projects-Student-Education-Program-For-Raspberry-Pi-3-p-1235892.html
 
+### SMB share instellen
+```shell
+sudo apt update
+sudo apt-get remove -y --purge man-db
+sudo apt install samba
+
+sudo vi /etc/samba/smb.conf
+
+[python]
+    comment = Samba on Ubuntu
+    path = /home/pi/python
+    read only = no
+    browsable = yes
+
+sudo service smbd restart
+
+sudo smbpasswd -a pi
+```
+
 ### DHT11 vochtsensor
 http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/
 
