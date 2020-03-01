@@ -62,3 +62,12 @@ https://nl.banggood.com/5V-4-Channel-Relay-Module-For-PIC-ARM-DSP-AVR-MSP430-Blu
 http://wiki.sunfounder.cc/index.php?title=4_Channel_5V_Relay_Module
 
 /relay-4.py
+
+### Adafruit INA260
+https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout
+
+https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/python-circuitpython
+
+sudo pip3 install adafruit-circuitpython-ina260
+
+wget https://learn.adafruit.com/pages/15642/elements/3024542/download -O ina260-simple.py
