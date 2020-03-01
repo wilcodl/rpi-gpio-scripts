@@ -63,6 +63,42 @@ http://wiki.sunfounder.cc/index.php?title=4_Channel_5V_Relay_Module
 
 /relay-4.py
 
+### Remote GPIO
+https://gpiozero.readthedocs.io/en/stable/remote_gpio.html
+
+#### Server (rPI)
+
+```shell
+sudo apt install pigpio
+
+sudo raspi-config
+
+sudo systemctl enable pigpiod
+sudo systemctl start pigpiod
+```
+
+#### Client (NUC)
+
+```shell
+sudo apt install python3-pip
+sudo pip3 install gpiozero pigpio
+
+GPIOZERO_PIN_FACTORY=pigpio PIGPIO_ADDR=10.0.0.168 python3 test.py
+```
+
+```python
+from gpiozero import LED
+from time import sleep
+
+red = LED(17) # BCM
+
+while True:
+    red.on()
+    sleep(1)
+    red.off()
+    sleep(1)
+```
+
 ### Adafruit INA260
 https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout
 
