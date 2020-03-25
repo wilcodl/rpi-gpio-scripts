@@ -104,6 +104,8 @@ https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout
 
 https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/python-circuitpython
 
+```shell
 sudo pip3 install adafruit-circuitpython-ina260
 
 wget https://learn.adafruit.com/pages/15642/elements/3024542/download -O ina260-simple.py
+```
