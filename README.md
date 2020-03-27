@@ -26,6 +26,11 @@ http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-rasp
 ### MCP3008 ADC
 https://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi
 
+```shell
+sudo apt-get install python3-pip
+sudo pip3 install adafruit-blinka adafruit-circuitpython-mcp3xxx
+```
+
 ### Mercury Switch Sensor Module
 https://osoyoo.com/2016/04/08/get-input-signal-from-raspberry-pi-gpio/
 
