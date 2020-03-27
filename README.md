@@ -109,3 +109,11 @@ sudo pip3 install adafruit-circuitpython-ina260
 
 wget https://learn.adafruit.com/pages/15642/elements/3024542/download -O ina260-simple.py
 ```
+
+### Grove - ±5A DC/AC Current Sensor (ACS70331)
+http://wiki.seeedstudio.com/Grove-5A_DC_AC_Current_Sensor-ACS70331/
+http://wiki.seeedstudio.com/Grove-2.5A-DC-Current-Sensor-ACS70331/
+
+```shell
+python3 ac_current_adc.py
+```
