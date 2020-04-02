@@ -15,7 +15,7 @@ time.sleep(2)
 print "Sensor activated..."
 
 while True:
-   if GPIO.input(PIN):
-      print "Movement detected! " + (time.strftime("%H:%M:%S"))
-      time.sleep(2)
-   time.sleep(0.1)
+	if GPIO.input(PIN):
+		print "Movement detected! " + (time.strftime("%H:%M:%S"))
+		time.sleep(2)
+	time.sleep(0.1)

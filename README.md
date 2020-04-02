@@ -10,10 +10,10 @@ sudo apt install samba
 sudo vi /etc/samba/smb.conf
 
 [python]
-    comment = Samba on Ubuntu
-    path = /home/pi/python
-    read only = no
-    browsable = yes
+	comment = Samba on Ubuntu
+	path = /home/pi/python
+	read only = no
+	browsable = yes
 
 sudo service smbd restart
 
@@ -98,10 +98,10 @@ from time import sleep
 red = LED(17) # BCM
 
 while True:
-    red.on()
-    sleep(1)
-    red.off()
-    sleep(1)
+	red.on()
+	sleep(1)
+	red.off()
+	sleep(1)
 ```
 
 ### Adafruit INA260
